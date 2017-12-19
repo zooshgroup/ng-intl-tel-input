@@ -1,7 +1,7 @@
 {
   "name": "ng-intl-tel-input",
   "version": "2.0.0",
-  "description": "AngularJS directive implementing intl-tel-input (https://github.com/Bluefieldscom/intl-tel-input)",
+  "description": "AngularJS directive implementing intl-tel-input (https://github.com/zooshgroup/ng-intl-tel-input)",
   "main": "dist/ng-intl-tel-input.js",
   "scripts": {
     "test": "npm run jshint && npm run karma",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hodgepodgers/ng-intl-tel-input.git"
+    "url": "git@github.com:zooshgroup/ng-intl-tel-input.git"
   },
   "keywords": [
     "ng-intl-tel-input",
@@ -27,17 +27,12 @@
     "validator",
     "angularjs"
   ],
-  "author": "bighappyface <anomalous20@gmail.com>",
-  "contributors": [
-    {
-      "name": "SyntaxStacks <johnbobsexipants@gmail.com>"
-    }
-  ],
+  "author": "Zoosh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hodgepodgers/ng-intl-tel-input/issues"
+    "url": "https://github.com/zooshgroup/ng-intl-tel-input/issues"
   },
-  "homepage": "http://hodgepodgers.github.io/ng-intl-tel-input",
+  "homepage": "https://github.com/zooshgroup/ng-intl-tel-input",
   "devDependencies": {
     "bower": "^1.4.1",
     "chai": "^3.2.0",
