@@ -36,10 +36,15 @@ angular.module('ngIntlTelInput')
             angular.element($window).on('countrychange', handleCountryChange);
             scope.$on('$destroy', cleanUp);
           }
+
+          scope.$watch('disabled', function (newValue, oldValue) {
+            ctrl.$validate();
+          });
+
           // Validation.
           ctrl.$validators.ngIntlTelInput = function (value) {
             // if phone number is deleted / empty do not run phone number validation
-            if (value || elm[0].value.length > 0) {
+            if (!scope.disabled && (value || elm[0].value.length > 0)) {
                 return elm.intlTelInput('isValidNumber');
             } else {
                 return true;
